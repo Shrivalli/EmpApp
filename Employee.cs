@@ -37,6 +37,7 @@ namespace EmpApp
             return true;
         }
 
+        //Checksal method
         public bool checksal(int sal)
         {
             int result=add(sal, 20);

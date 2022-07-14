@@ -8,7 +8,7 @@ namespace EmpApp
         public static List<Employee> emps = new List<Employee>();
         static void Main(string[] args)
         {
-            
+            int x;
             IEmployee<Employee> obj = new Employee();
             int result=obj.add(5, 4);
             Console.WriteLine(result);
